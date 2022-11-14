@@ -1,0 +1,9 @@
+export const getColorsList = () => {
+    const storageText=localStorage.getItem("colorsList")
+    return  storageText!== null ? JSON.parse(storageText):[];
+};
+
+export const getLastColor = () =>{
+    const colorsList=getColorsList();
+    return colorsList[0] || "#544534";
+};
