@@ -4,9 +4,8 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "https://6371ba1e2a37145561fb4422--incomparable-bavarois-453bac.netlify.app/",
+    publicPath: "https://mc-colorpickeremsb.netlify.app/",
   },
-
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js", ".json"],
   },
